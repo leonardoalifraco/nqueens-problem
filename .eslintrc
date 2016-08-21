@@ -1,0 +1,21 @@
+{
+  "extends": [
+    "airbnb"
+  ],
+  "env": {
+    "browser": false,
+    "node": true,
+    "es6": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "script"
+  },
+  "rules": {
+    "strict": [
+      2,
+      "global"
+    ],
+    "no-console": 0
+  }
+}
